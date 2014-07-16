@@ -81,3 +81,6 @@ BOARD_VOLD_MAX_PARTITIONS := 36
 # Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 TARGET_RECOVERY_FSTAB := device/htc/ville/rootdir/etc/fstab.qcom
+
+DEVICE_RESOLUTION := 540x960
+TW_FLASH_FROM_STORAGE := true

@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
 # Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/ville/ville.mk)
